@@ -58,4 +58,4 @@ def send_email():
     server.quit()
     # (221, b'2.0.0 closing connection o76sm39310782pfi.119 - gsmtp')
 
-send_email()
+sends_email()
