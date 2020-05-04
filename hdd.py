@@ -18,6 +18,7 @@ import df_func
 
 # Creating my function to send a email
 def send_email():
+	"""Please edit the email and password to match the correct details.""" 
     disk_read = subprocess.Popen("df -h", shell=True, stdout=subprocess.PIPE)
     df_output = disk_read.stdout.read()
     # msg: MIMEText = MIMEText("Centos-Server Might be running out of disk space")
